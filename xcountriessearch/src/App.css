@@ -1,0 +1,33 @@
+.countries-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.countries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countryCard {
+  text-align: center;
+  margin: 10px;
+}
+
+.flag-img {
+  width: 50px; /* Adjust flag size as needed */
+  height: auto;
+}
+
+.no-countries {
+  margin-top: 20px;
+  font-weight: bold;
+}
